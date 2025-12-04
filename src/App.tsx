@@ -34,7 +34,7 @@ export default function Portfolio() {
       </header>
 
       {/* About Section */}
-      <section id="about" className="max-w-3xl mx-auto p-8">
+      <section id="about" className="mx-auto p-8">
         <h2 className="text-2xl font-semibold mb-4 border-b-2 border-gray-400 pb-2">About Me</h2>
         <p>
           Hi! I’m Joseph Dib, a passionate developer who loves building efficient solutions
@@ -44,7 +44,7 @@ export default function Portfolio() {
       </section>
 
       {/* Projects Section */}
-      <section id="projects" className="max-w-4xl mx-auto p-8">
+      <section id="projects" className=" mx-auto p-8">
         <h2 className="text-2xl font-semibold mb-4 border-b-2 border-gray-400 pb-2">Projects</h2>
         <div className="grid md:grid-cols-2 gap-6">
           <motion.div whileHover={{ scale: 1.03 }} className={`${darkMode ? 'bg-gray-800' : 'bg-white'} p-6 rounded-2xl shadow-md`}>
@@ -80,7 +80,7 @@ export default function Portfolio() {
       </section>
 
       {/* Skills Section */}
-      <section id="skills" className="max-w-3xl mx-auto p-8">
+      <section id="skills" className=" mx-auto p-8">
         <h2 className="text-2xl font-semibold mb-4 border-b-2 border-gray-400 pb-2">Skills</h2>
         <ul className="flex flex-wrap gap-3">
           {['Java', 'SQL', 'React Native', 'HTML & CSS', 'Git & GitHub'].map(skill => (
@@ -92,11 +92,11 @@ export default function Portfolio() {
       </section>
 
       {/* Contact Section */}
-      <section id="contact" className="max-w-3xl mx-auto p-8">
+      <section id="contact" className=" mx-auto p-8">
         <h2 className="text-2xl font-semibold mb-4 border-b-2 border-gray-400 pb-2">Contact</h2>
-        <p>Email: <a href="mailto:joseph@example.com" className="text-blue-400">joseph@example.com</a></p>
-        <p>GitHub: <a href="https://github.com/YOUR_USERNAME" className="text-blue-400" target="_blank" rel="noreferrer">@YOUR_USERNAME</a></p>
-        <p>LinkedIn: <a href="https://linkedin.com/in/YOUR_LINKEDIN" className="text-blue-400" target="_blank" rel="noreferrer">LinkedIn Profile</a></p>
+        <p>Email: <a href="mailto:josephdib3160@gmail.com" className="text-blue-400">josephdib3160@gmail.com</a></p>
+        <p>GitHub: <a href="https://github.com/josephdib3160" className="text-blue-400" target="_blank" rel="noreferrer">@josephdib3160</a></p>
+        <p>LinkedIn: <a href="https://linkedin.com/in/joseph-dib-a680a2277/" className="text-blue-400" target="_blank" rel="noreferrer">LinkedIn Profile</a></p>
       </section>
 
       <footer className={`${darkMode ? 'bg-gray-800' : 'bg-gray-900'} text-white text-center py-4`}>
