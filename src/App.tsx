@@ -12,9 +12,16 @@ export default function Portfolio() {
   }, [darkMode]);
 
   return (
-    <div className={`${darkMode ? 'bg-gray-900 text-gray-100' : 'bg-gray-50 text-gray-800'} min-h-screen transition-colors duration-300`}>
-      {/* Header */}
-      <header className={`${darkMode ? 'bg-gray-800' : 'bg-gray-900'} text-white text-center py-12 relative`}>
+    <div className={`${darkMode ? 'bg-gray-900 text-gray-100' : 'bg-gray-50 text-gray-800'} min-h-screen transition-colors flex duration-300`}>
+
+      <aside className={`${darkMode ? 'bg-gray-700' : 'bg-gray-200'} w-64 min-h-screen p-6 flex flex-col gap-4 shadow-xl`}>
+<h2 className="text-2xl font-bold mb-4">Navigation</h2>
+<button >Projects</button>
+</aside>
+
+<div className="flex-1">
+
+  <header className={`${darkMode ? 'bg-gray-800' : 'bg-gray-900'} text-white text-center py-12 relative`}>
         <h1 className="text-4xl font-bold">Joseph Dib</h1>
         <p className="text-lg mt-2">Technical Solutions Engineer | Developer | Problem Solver</p>
         <nav className="mt-6 space-x-6">
@@ -32,7 +39,6 @@ export default function Portfolio() {
           {darkMode ? '☀️ Light Mode' : '🌙 Dark Mode'}
         </button>
       </header>
-
       {/* About Section */}
       <section id="about" className="mx-auto p-8">
         <h2 className="text-2xl font-semibold mb-4 border-b-2 border-gray-400 pb-2">About Me</h2>
@@ -102,6 +108,7 @@ export default function Portfolio() {
       <footer className={`${darkMode ? 'bg-gray-800' : 'bg-gray-900'} text-white text-center py-4`}>
         <p>© 2025 Joseph Dib. All rights reserved.</p>
       </footer>
+      </div>
     </div>
   );
 }
