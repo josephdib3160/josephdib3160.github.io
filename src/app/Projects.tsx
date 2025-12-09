@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { Link } from "react-router";
 
-export default function Portfolio() {
+export default function Projects() {
   const [darkMode, setDarkMode] = useState(() => {
     const stored = localStorage.getItem('darkMode');
     return stored ? JSON.parse(stored) : false;
@@ -27,12 +27,6 @@ export default function Portfolio() {
   <header className={`${darkMode ? 'bg-gray-800' : 'bg-gray-900'} text-white text-center py-12 relative`}>
         <h1 className="text-4xl font-bold">Joseph Dib</h1>
         <p className="text-lg mt-2">Technical Solutions Engineer | Developer | Problem Solver</p>
-        <nav className="mt-6 space-x-6">
-          <a href="#about" className="hover:underline">About</a>
-          <a href="#projects" className="hover:underline">Projects</a>
-          <a href="#skills" className="hover:underline">Skills</a>
-          <a href="#contact" className="hover:underline">Contact</a>
-        </nav>
 
         {/* Dark Mode Toggle */}
         <button
@@ -46,9 +40,7 @@ export default function Portfolio() {
       <section id="about" className="mx-auto p-8">
         <h2 className="text-2xl font-semibold mb-4 border-b-2 border-gray-400 pb-2">About Me</h2>
         <p>
-          Hi! I’m Joseph Dib, a passionate developer who loves building efficient solutions
-          and learning new technologies. I enjoy working with Java, SQL, and web technologies
-          to create impactful projects.
+          Hi! Projects.
         </p>
       </section>
 
@@ -86,18 +78,6 @@ export default function Portfolio() {
             </a>
           </motion.div>
         </div>
-      </section>
-
-      {/* Skills Section */}
-      <section id="skills" className=" mx-auto p-8">
-        <h2 className="text-2xl font-semibold mb-4 border-b-2 border-gray-400 pb-2">Skills</h2>
-        <ul className="flex flex-wrap gap-3">
-          {['Java', 'SQL', 'React Native', 'HTML & CSS', 'Git & GitHub'].map(skill => (
-            <li key={skill} className={`${darkMode ? 'bg-gray-800' : 'bg-white'} px-4 py-2 rounded-lg shadow-sm`}>
-              {skill}
-            </li>
-          ))}
-        </ul>
       </section>
 
       {/* Contact Section */}
