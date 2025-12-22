@@ -1,5 +1,4 @@
 import { useState, useEffect } from 'react';
-import { motion } from 'framer-motion';
 import { Link } from "react-router";
 
 export default function Projects() {
@@ -38,46 +37,17 @@ export default function Projects() {
       </header>
       {/* About Section */}
       <section id="about" className="mx-auto p-8">
-        <h2 className="text-2xl font-semibold mb-4 border-b-2 border-gray-400 pb-2">About Me</h2>
         <p>
-          Hi! Projects.
+          Below you will find more information about my work experience.
         </p>
       </section>
 
-      {/* Projects Section */}
-      <section id="projects" className=" mx-auto p-8">
-        <h2 className="text-2xl font-semibold mb-4 border-b-2 border-gray-400 pb-2">Projects</h2>
-        <div className="grid md:grid-cols-2 gap-6">
-          <motion.div whileHover={{ scale: 1.03 }} className={`${darkMode ? 'bg-gray-800' : 'bg-white'} p-6 rounded-2xl shadow-md`}>
-            <h3 className="text-xl font-bold">Parking Reservation App</h3>
-            <p className="mt-2">
-              A React Native app that helps users find and reserve parking spots on a live map.
-            </p>
-            <a
-              href="https://github.com/YOUR_USERNAME/parking-reservation-app"
-              target="_blank"
-              className="text-blue-400 mt-3 inline-block"
-              rel="noreferrer"
-            >
-              View on GitHub
-            </a>
-          </motion.div>
-
-          <motion.div whileHover={{ scale: 1.03 }} className={`${darkMode ? 'bg-gray-800' : 'bg-white'} p-6 rounded-2xl shadow-md`}>
-            <h3 className="text-xl font-bold">Portfolio Website</h3>
-            <p className="mt-2">
-              This personal website built with React, Tailwind CSS, and Framer Motion, hosted on GitHub Pages.
-            </p>
-            <a
-              href="https://github.com/YOUR_USERNAME/portfolio"
-              target="_blank"
-              className="text-blue-400 mt-3 inline-block"
-              rel="noreferrer"
-            >
-              View on GitHub
-            </a>
-          </motion.div>
-        </div>
+      <section id="about" className="mx-auto p-8">
+        <h2 className="text-xl font-semibold mb-4 border-gray-400 ">UNLV Reserved Parking</h2>
+        <h2 className="text-xl font-semibold mb-4 border-b-2 pb-2 border-gray-400 ">January 2025 - May 2025</h2>
+        <p>
+          I worked on a React Native app along with 8 other developers. The app focuses on allowing people to reserve a parking spot in order to know where they will park ahead of time instead of blindly looking for a parking spot. I mainly worked on the frontend and database of this app.
+        </p>
       </section>
 
       {/* Contact Section */}
