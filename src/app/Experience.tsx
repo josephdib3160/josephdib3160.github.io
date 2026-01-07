@@ -57,6 +57,22 @@ export default function Experience() {
         </p>
       </section>
 
+      <section id="about" className="mx-auto p-8">
+        <h2 className="text-xl font-semibold mb-4 border-gray-400 ">UNLV</h2>
+        <h2 className="text-xl font-semibold mb-4 border-gray-400 ">January 2023 - May 2023</h2>
+        <h2 className="text-xl font-semibold mb-4 border-b-2 pb-2 border-gray-400 ">Teaching Assistant</h2>
+        <p>
+          In the 2023 spring semester at UNLV, I worked a teaching assistant for CS218 - Assembly Language (one of the more difficult classes in the cirriculum).
+          I was responsible for a class of ~45 students by helping answer questions (online and in person), as well as grade assignments.
+        </p>
+
+        <p>
+        I feel as though many of the students that attended my office hours had a positive experience. Through discussions with students and through grading the work of students that frequently attended
+        my office hours, I noticed an upward trend in their scores. Some of the students tell me that I was the best TA they have had for the class in years. In fact, today, I still talk to some of the students
+        I had taught.
+        </p>
+      </section>
+
       {/* Contact Section */}
       <section id="contact" className=" mx-auto p-8">
         <h2 className="text-2xl font-semibold mb-4 border-b-2 border-gray-400 pb-2">Contact</h2>
