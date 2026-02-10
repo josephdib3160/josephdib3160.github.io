@@ -75,7 +75,7 @@ export default function Portfolio() {
       <section id="skills" className=" mx-auto p-8">
         <h2 className="text-2xl font-semibold mb-4 border-b-2 border-gray-400 pb-2">Skills</h2>
         <ul className="flex flex-wrap gap-3">
-          {['Java', 'SQL', 'React Native', 'HTML & CSS', 'Git & GitHub'].map(skill => (
+          {['C#', 'C++', 'Python', 'Java', 'SQL', 'React Native', 'HTML & CSS', 'Git & GitHub'].map(skill => (
             <li key={skill} className={`${darkMode ? 'bg-gray-800' : 'bg-white'} px-4 py-2 rounded-lg shadow-sm`}>
               {skill}
             </li>
