@@ -26,13 +26,13 @@ export default function Portfolio() {
 
   <header className={`${darkMode ? 'bg-gray-800' : 'bg-gray-900'} text-white text-center py-12 relative`}>
         <h1 className="text-4xl font-bold">Joseph Dib</h1>
-        <p className="text-lg mt-2">Technical Solutions Engineer | Developer | Problem Solver</p>
-        <nav className="mt-6 space-x-6">
+        <p className="text-lg mt-2">Software Engineer</p>
+        {/* <nav className="mt-6 space-x-6">
           <a href="#about" className="hover:underline">About</a>
           <a href="#projects" className="hover:underline">Projects</a>
           <a href="#skills" className="hover:underline">Skills</a>
           <a href="#contact" className="hover:underline">Contact</a>
-        </nav>
+        </nav> */}
 
         {/* Dark Mode Toggle */}
         <button
@@ -47,8 +47,7 @@ export default function Portfolio() {
         <h2 className="text-2xl font-semibold mb-4 border-b-2 border-gray-400 pb-2">About Me</h2>
         <p>
           Hi! I’m Joseph Dib, a passionate developer who loves building efficient solutions
-          and learning new technologies. I enjoy working with Java, SQL, and web technologies
-          to create impactful projects.
+          and learning new technologies. I have a Bachelor's of Science in Computer Science and am looking for any job related to software engineering!
         </p>
       </section>
 
@@ -61,14 +60,6 @@ export default function Portfolio() {
             <p className="mt-2">
               A React Native app that helps users find and reserve parking spots on a live map.
             </p>
-            <a
-              href="https://github.com/YOUR_USERNAME/parking-reservation-app"
-              target="_blank"
-              className="text-blue-400 mt-3 inline-block"
-              rel="noreferrer"
-            >
-              View on GitHub
-            </a>
           </motion.div>
 
           <motion.div whileHover={{ scale: 1.03 }} className={`${darkMode ? 'bg-gray-800' : 'bg-white'} p-6 rounded-2xl shadow-md`}>
@@ -76,14 +67,6 @@ export default function Portfolio() {
             <p className="mt-2">
               This personal website built with React, Tailwind CSS, and Framer Motion, hosted on GitHub Pages.
             </p>
-            <a
-              href="https://github.com/YOUR_USERNAME/portfolio"
-              target="_blank"
-              className="text-blue-400 mt-3 inline-block"
-              rel="noreferrer"
-            >
-              View on GitHub
-            </a>
           </motion.div>
         </div>
       </section>
@@ -105,12 +88,9 @@ export default function Portfolio() {
         <h2 className="text-2xl font-semibold mb-4 border-b-2 border-gray-400 pb-2">Contact</h2>
         <p>Email: <a href="mailto:josephdib3160@gmail.com" className="text-blue-400">josephdib3160@gmail.com</a></p>
         <p>GitHub: <a href="https://github.com/josephdib3160" className="text-blue-400" target="_blank" rel="noreferrer">@josephdib3160</a></p>
-        <p>LinkedIn: <a href="https://linkedin.com/in/joseph-dib-a680a2277/" className="text-blue-400" target="_blank" rel="noreferrer">LinkedIn Profile</a></p>
+        <p>LinkedIn: <a href="https://linkedin.com/in/joseph-dib-a680a2277/" className="text-blue-400" target="_blank" rel="noreferrer">@Joseph-Dib</a></p>
       </section>
 
-      <footer className={`${darkMode ? 'bg-gray-800' : 'bg-gray-900'} text-white text-center py-4`}>
-        <p>© 2025 Joseph Dib. All rights reserved.</p>
-      </footer>
       </div>
     </div>
   );

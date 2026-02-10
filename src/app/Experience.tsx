@@ -25,7 +25,7 @@ export default function Experience() {
 
   <header className={`${darkMode ? 'bg-gray-800' : 'bg-gray-900'} text-white text-center py-12 relative`}>
         <h1 className="text-4xl font-bold">Joseph Dib</h1>
-        <p className="text-lg mt-2">Technical Solutions Engineer | Developer | Problem Solver</p>
+        <p className="text-lg mt-2">Software Engineer</p>
 
         {/* Dark Mode Toggle */}
         <button
@@ -81,9 +81,6 @@ export default function Experience() {
         <p>LinkedIn: <a href="https://linkedin.com/in/joseph-dib-a680a2277/" className="text-blue-400" target="_blank" rel="noreferrer">LinkedIn Profile</a></p>
       </section>
 
-      <footer className={`${darkMode ? 'bg-gray-800' : 'bg-gray-900'} text-white text-center py-4`}>
-        <p>© 2025 Joseph Dib. All rights reserved.</p>
-      </footer>
       </div>
     </div>
   );
