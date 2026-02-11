@@ -83,6 +83,11 @@ export default function Portfolio() {
         </ul>
       </section>
 
+      <section id="Resume" className=" mx-auto p-8">
+        <h2 className="text-2xl font-semibold mb-4 border-b-2 border-gray-400 pb-2">Resume</h2>
+        <a href='Resume.pdf' target='_blank'>View Resume</a>
+      </section>
+
       {/* Contact Section */}
       <section id="contact" className=" mx-auto p-8">
         <h2 className="text-2xl font-semibold mb-4 border-b-2 border-gray-400 pb-2">Contact</h2>
