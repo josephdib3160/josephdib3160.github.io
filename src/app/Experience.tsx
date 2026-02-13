@@ -19,6 +19,7 @@ export default function Experience() {
 <Link to="/" >Home</Link>
 <Link to="/projects" >Projects</Link>
 <Link to="/experience">Experience</Link>
+<Link to="/education">Education</Link>
 </aside>
 
 <div className="flex-1">

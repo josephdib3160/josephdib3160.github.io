@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { motion } from 'framer-motion';
 import { Link } from "react-router";
 
 export default function Education() {
@@ -19,6 +20,7 @@ export default function Education() {
 <Link to="/" >Home</Link>
 <Link to="/projects" >Projects</Link>
 <Link to="/experience">Experience</Link>
+<Link to="/education">Education</Link>
 </aside>
 
 <div className="flex-1">
@@ -36,29 +38,79 @@ export default function Education() {
         </button>
       </header>
       {/* About Section */}
-      <section id="about" className="mx-auto p-8">
-        <p>
-          Below you will find more information about my education.
-        </p>
+      <section id="about" className="mx-auto text-xl p-8">
+        <p> I attended college at the <b> University of Nevada- Las Vegas </b> from <b>August 2021 - May 2025</b>.</p>
+        <p> I graduated with a <b>Bachelor's of Science in Computer Science </b>and a GPA of <b>3.945 (Magna Cum Laude)</b>.</p>
+        <p> Below you will find relevant courses. </p>
+
+        
       </section>
 
       <section id="about" className="mx-auto p-8">
-        <h1 className="text-xl font-semibold mb-4 border-gray-400 ">University of Nevada- Las Vegas</h1>
-        <h2 className="text-xl font-semibold mb-4 border-gray-400 ">August 2021 - May 2025</h2>
-        <h2 className="text-xl font-semibold mb-4 border-gray-400 ">Bachelor's of Science in Computer Science</h2>
-        <h2 className="text-xl font-semibold mb-4 border-b-2 pb-2 border-gray-400 ">GPA: 3.945 (Magna Cum Laude)</h2>
-        
-        </section>
 
-        <section id="classes" className="mx-auto p-8">
-        <p className="text-l font-semibold mb-4 border-gray-400 ">
-          Below you will find relevant coursework taken at UNLV.
-        </p>
+        <div className="grid md:grid-cols-3 gap-6">
+          <motion.div whileHover={{ scale: 1.03 }} className={`${darkMode ? 'bg-gray-800' : 'bg-white'} p-6 rounded-2xl shadow-md`}>
+            <h3 className="text-xl font-bold">Data Structures (CS302)</h3>
+            <p className="mt-2">
+              Observation of different sorting and searching models (such as stacks, queues, 
+              and hashmaps) as well as their trade-offs and asymptotic complexity.
+            </p>
+          </motion.div>
 
-        <ul>
-          <li>CS 135: Computer Science 1</li>
-          <li>CS 202: Computer Science 2</li>
-        </ul>
+          <motion.div whileHover={{ scale: 1.03 }} className={`${darkMode ? 'bg-gray-800' : 'bg-white'} p-6 rounded-2xl shadow-md`}>
+            <h3 className="text-xl font-bold">Operating Systems (CS370)</h3>
+            <p className="mt-2">
+              Operating systems organization, sharing and allocation of system resources, protection mechanisms, 
+              integration of system components, and multithreading.
+            </p>
+          </motion.div>
+          <motion.div whileHover={{ scale: 1.03 }} className={`${darkMode ? 'bg-gray-800' : 'bg-white'} p-6 rounded-2xl shadow-md`}>
+            <h3 className="text-xl font-bold">Introduction to Machine Learning (CS422)</h3>
+            <p className="mt-2">
+              Covers various machine learning algorithms for regression, 
+              classification, clustering, and ensemble learning.
+            </p>
+          </motion.div>
+        </div>
+
+        <div className="my-8 grid md:grid-cols-3 gap-6">
+          <motion.div whileHover={{ scale: 1.03 }} className={`${darkMode ? 'bg-gray-800' : 'bg-white'} p-6 rounded-2xl shadow-md`}>
+            <h3 className="text-xl font-bold">Cloud Computing (CS442)</h3>
+            <p className="mt-2">
+              Exploration of cloud computing services, their use cases and applications, 
+              and an overview of best practices including security, scalability, 
+              and global infrastructure. Basics of Amazon AWS also covered.
+            </p>
+          </motion.div>
+
+          <motion.div whileHover={{ scale: 1.03 }} className={`${darkMode ? 'bg-gray-800' : 'bg-white'} p-6 rounded-2xl shadow-md`}>
+            <h3 className="text-xl font-bold">Database Management Systems (CS457)</h3>
+            <p className="mt-2">
+              Concepts and structures necessary for design and implementation of a database management system. 
+              Survey of current database management systems and use of a DBMS.
+            </p>
+          </motion.div>
+          <motion.div whileHover={{ scale: 1.03 }} className={`${darkMode ? 'bg-gray-800' : 'bg-white'} p-6 rounded-2xl shadow-md`}>
+            <h3 className="text-xl font-bold">Autonomous Racing (CS489)</h3>
+            <p className="mt-2">
+              Programming an autonomous vehicle using ROS systems (C++, Docker), which will be capable of following walls, 
+              navigating around obstacles, and engaging Automatic Emergency Braking when needed.
+            </p>
+          </motion.div>
+        </div>
+
+        <div className="my-8 grid md:grid-cols-1 gap-6">
+          <motion.div whileHover={{ scale: 1.03 }} className={`${darkMode ? 'bg-gray-800' : 'bg-white'} p-6 rounded-2xl shadow-md`}>
+            <h3 className="text-xl font-bold">Software Product Design 1 (CS472)</h3>
+            <p className="mt-2">
+              Current techniques in software design presented with emphasis on architecture first development. 
+              Introduction to the processes involved in development. 
+              Practice architectural design through a series of homework problems. 
+              Students work in teams to prepare the architecture for a software product.
+            </p>
+          </motion.div>
+        </div>
+
       </section>
 
       {/* Contact Section */}
