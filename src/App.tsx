@@ -20,6 +20,7 @@ export default function Portfolio() {
 <Link to="/" >Home</Link>
 <Link to="/projects" >Projects</Link>
 <Link to="/experience">Experience</Link>
+<Link to="/education">Education</Link>
 </aside>
 
 <div className="flex-1">
@@ -43,13 +44,21 @@ export default function Portfolio() {
         </button>
       </header>
       {/* About Section */}
-      <section id="about" className="mx-auto p-8">
+      <div className = "flex flex-row">
+      <section id="about" className="mx-auto p-8 flex-row">
         <h2 className="text-2xl font-semibold mb-4 border-b-2 border-gray-400 pb-2">About Me</h2>
         <p>
           Hi! I’m Joseph Dib, a passionate developer who loves building efficient solutions
           and learning new technologies. I have a Bachelor's of Science in Computer Science and am looking for any job related to software engineering!
         </p>
-      </section>
+        </section>
+        <img className = "m-8" src={"headshot-copy.jpg"} width={200} >
+        </img>
+     
+      <div>
+
+      </div>
+      </div>
 
       {/* Projects Section */}
       <section id="projects" className=" mx-auto p-8">
