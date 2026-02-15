@@ -37,14 +37,14 @@ export default function Projects() {
           {darkMode ? '☀️ Light Mode' : '🌙 Dark Mode'}
         </button>
       </header>
-      {/* About Section */}
-      <section id="about" className="mx-auto p-8">
+      {/* Projects Section */}
+      <section id="projects" className="mx-auto p-8">
         <p>
           Below you will find more information about my projects.
         </p>
       </section>
 
-      <section id="projects" className=" mx-auto p-8">
+      <section id="projects_list" className=" mx-auto p-8">
         <h2 className="text-2xl font-semibold mb-4 border-b-2 border-gray-400 pb-2">Projects</h2>
         <div className="grid md:grid-cols-2 gap-6">
           <motion.div whileHover={{ scale: 1.03 }} className={`${darkMode ? 'bg-gray-800' : 'bg-white'} p-6 rounded-2xl shadow-md`}>
@@ -70,6 +70,14 @@ export default function Projects() {
               The program accesses the components of the autonomous vehicle, such as the LIDAR, to follow
               a path around a course. The program is also capable of safely navigating the vehicle around obstacles in the path 
               and engaging Automatic Emergency Braking when needed. 
+            </p>
+          </motion.div>
+
+          <motion.div whileHover={{ scale: 1.03 }} className={`${darkMode ? 'bg-gray-800' : 'bg-white'} p-6 rounded-2xl shadow-md`}>
+            <h3 className="text-xl font-bold">Discord Bot</h3>
+            <p className="mt-2">
+              A small bot for the social media app Discord that is capable of playing music requested by a user.
+              The bot also has additional commands, such as displaying server rules. 
             </p>
           </motion.div>
         </div>

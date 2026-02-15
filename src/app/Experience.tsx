@@ -36,14 +36,15 @@ export default function Experience() {
           {darkMode ? '☀️ Light Mode' : '🌙 Dark Mode'}
         </button>
       </header>
-      {/* About Section */}
-      <section id="about" className="mx-auto p-8">
+
+      {/* Work experience Section */}
+      <section id="experience" className="mx-auto p-8">
         <p>
           Below you will find more information about my work experience.
         </p>
       </section>
 
-      <section id="about" className="mx-auto p-8">
+      <section id="pushabl" className="mx-auto p-8">
         <h2 className="text-xl font-semibold mb-4 border-gray-400 ">Pushabl, LLC</h2>
         <h2 className="text-xl font-semibold mb-4 border-gray-400 ">July 2025 - November 2025</h2>
         <h2 className="text-xl font-semibold mb-4 border-b-2 pb-2 border-gray-400 ">Software Engineer Coordinator</h2>
@@ -58,7 +59,7 @@ export default function Experience() {
         </p>
       </section>
 
-      <section id="about" className="mx-auto p-8">
+      <section id="unlv_exp" className="mx-auto p-8">
         <h2 className="text-xl font-semibold mb-4 border-gray-400 ">UNLV</h2>
         <h2 className="text-xl font-semibold mb-4 border-gray-400 ">January 2023 - May 2023</h2>
         <h2 className="text-xl font-semibold mb-4 border-b-2 pb-2 border-gray-400 ">Teaching Assistant</h2>

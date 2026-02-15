@@ -37,8 +37,9 @@ export default function Education() {
           {darkMode ? '☀️ Light Mode' : '🌙 Dark Mode'}
         </button>
       </header>
-      {/* About Section */}
-      <section id="about" className="mx-auto text-xl p-8">
+
+      {/* Education Section */}
+      <section id="Education" className="mx-auto text-xl p-8">
         <p> I attended college at the <b> University of Nevada- Las Vegas </b> from <b>August 2021 - May 2025</b>.</p>
         <p> I graduated with a <b>Bachelor's of Science in Computer Science </b>and a GPA of <b>3.945 (Magna Cum Laude)</b>.</p>
         <p> Below you will find relevant courses. </p>
@@ -46,7 +47,7 @@ export default function Education() {
         
       </section>
 
-      <section id="about" className="mx-auto p-8">
+      <section id="education_list" className="mx-auto p-8">
 
         <div className="grid md:grid-cols-3 gap-6">
           <motion.div whileHover={{ scale: 1.03 }} className={`${darkMode ? 'bg-gray-800' : 'bg-white'} p-6 rounded-2xl shadow-md`}>
