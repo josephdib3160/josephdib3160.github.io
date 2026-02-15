@@ -15,7 +15,7 @@ export default function Portfolio() {
   return (
     <div className={`${darkMode ? 'bg-gray-900 text-gray-100' : 'bg-gray-50 text-gray-800'} min-h-screen transition-colors flex duration-300`}>
 
-      <aside className={`${darkMode ? 'bg-gray-700' : 'bg-gray-200'} w-64 min-h-screen p-6 flex flex-col gap-4 shadow-xl`}>
+      <aside className={`${darkMode ? 'bg-gray-950' : 'bg-gray-200'} w-64 min-h-screen p-6 flex flex-col gap-4 shadow-xl`}>
 <h2 className="text-2xl font-bold mb-4">Navigation</h2>
 <Link to="/" >Home</Link>
 <Link to="/projects" >Projects</Link>
@@ -51,6 +51,10 @@ export default function Portfolio() {
           Hi! I’m Joseph Dib, a passionate developer who loves building efficient solutions
           and learning new technologies. I have a Bachelor's of Science in Computer Science and am looking for any job related to software engineering!
         </p>
+
+        <p>
+          Use the sidebar on the left side of the page to navigate to the different sections of my website!
+        </p>
         </section>
         <img className = "m-8" src={"headshot-copy.jpg"} width={200} >
         </img>
@@ -59,26 +63,6 @@ export default function Portfolio() {
 
       </div>
       </div>
-
-      {/* Projects Section */}
-      <section id="projects" className=" mx-auto p-8">
-        <h2 className="text-2xl font-semibold mb-4 border-b-2 border-gray-400 pb-2">Projects</h2>
-        <div className="grid md:grid-cols-2 gap-6">
-          <motion.div whileHover={{ scale: 1.03 }} className={`${darkMode ? 'bg-gray-800' : 'bg-white'} p-6 rounded-2xl shadow-md`}>
-            <h3 className="text-xl font-bold">Parking Reservation App</h3>
-            <p className="mt-2">
-              A React Native app that helps users find and reserve parking spots on a live map.
-            </p>
-          </motion.div>
-
-          <motion.div whileHover={{ scale: 1.03 }} className={`${darkMode ? 'bg-gray-800' : 'bg-white'} p-6 rounded-2xl shadow-md`}>
-            <h3 className="text-xl font-bold">Portfolio Website</h3>
-            <p className="mt-2">
-              This personal website built with React, Tailwind CSS, and Framer Motion, hosted on GitHub Pages.
-            </p>
-          </motion.div>
-        </div>
-      </section>
 
       {/* Skills Section */}
       <section id="skills" className=" mx-auto p-8">

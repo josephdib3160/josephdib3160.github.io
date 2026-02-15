@@ -15,7 +15,7 @@ export default function Education() {
   return (
     <div className={`${darkMode ? 'bg-gray-900 text-gray-100' : 'bg-gray-50 text-gray-800'} min-h-screen transition-colors flex duration-300`}>
 
-      <aside className={`${darkMode ? 'bg-gray-700' : 'bg-gray-200'} w-64 min-h-screen p-6 flex flex-col gap-4 shadow-xl`}>
+      <aside className={`${darkMode ? 'bg-gray-950' : 'bg-gray-200'} w-64 min-h-screen p-6 flex flex-col gap-4 shadow-xl`}>
 <h2 className="text-2xl font-bold mb-4">Navigation</h2>
 <Link to="/" >Home</Link>
 <Link to="/projects" >Projects</Link>
