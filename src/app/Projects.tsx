@@ -48,7 +48,7 @@ export default function Projects() {
         <h2 className="text-2xl font-semibold mb-4 border-b-2 border-gray-400 pb-2">Projects</h2>
         <div className="grid md:grid-cols-2 gap-6">
           <motion.div whileHover={{ scale: 1.03 }} className={`${darkMode ? 'bg-gray-800' : 'bg-white'} p-6 rounded-2xl shadow-md`}>
-            <h3 className="text-xl font-bold">Parking Reservation App</h3>
+            <h3 className="text-xl font-bold"><a href="https://github.com/UNLV-CS472-672/2025-S-GROUP1-URP">Parking Reservation App</a></h3>
             <p className="mt-2">
               Worked in a team of 9 to build a mobile application using <b>React Native</b> that allows the user to see a real-time map of 
               parking spots in a parking garage as well as allow the user to make reservations for parking spots.
@@ -64,7 +64,7 @@ export default function Projects() {
           </motion.div>
 
           <motion.div whileHover={{ scale: 1.03 }} className={`${darkMode ? 'bg-gray-800' : 'bg-white'} p-6 rounded-2xl shadow-md`}>
-            <h3 className="text-xl font-bold">F1Tenth Autonomous Vehicle Program</h3>
+            <h3 className="text-xl font-bold"><a href = "https://github.com/1LordPheonix1/CS489Lab5">F1Tenth Autonomous Vehicle Program</a></h3>
             <p className="mt-2">
               Worked in a team of 4 to program an autonomous vehicle using ROS systems, <b>C++, Docker, and Python</b>. 
               The program accesses the components of the autonomous vehicle, such as the LIDAR, to follow
@@ -74,7 +74,7 @@ export default function Projects() {
           </motion.div>
 
           <motion.div whileHover={{ scale: 1.03 }} className={`${darkMode ? 'bg-gray-800' : 'bg-white'} p-6 rounded-2xl shadow-md`}>
-            <h3 className="text-xl font-bold">Discord Bot</h3>
+            <h3 className="text-xl font-bold"><a href="https://github.com/josephdib3160/turb-bot">Discord Bot</a></h3>
             <p className="mt-2">
               A small bot for the social media app Discord that is capable of playing music requested by a user.
               The bot also has additional commands, such as displaying server rules. 
