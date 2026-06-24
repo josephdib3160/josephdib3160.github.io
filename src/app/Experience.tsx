@@ -46,10 +46,9 @@ export default function Experience() {
 
       <section id="pushabl" className="mx-auto p-8">
         <h2 className="text-xl font-semibold mb-4 border-gray-400 ">Pushabl, LLC</h2>
-        <h2 className="text-xl font-semibold mb-4 border-gray-400 ">July 2025 - November 2025</h2>
         <h2 className="text-xl font-semibold mb-4 border-b-2 pb-2 border-gray-400 ">Software Engineer Coordinator</h2>
         <p>
-          This was my first real experience in the field. I originally started out as an intern, then was given an offer to work full-time after 2 months. 
+          This was my first real experience as a Software Engineer. I originally started out as an intern, then was given an offer to work full-time after 2 months. 
           The company size was small, with there only being 3 other developers working on multiple different projects.
         </p>
 
@@ -61,7 +60,6 @@ export default function Experience() {
 
       <section id="unlv_exp" className="mx-auto p-8">
         <h2 className="text-xl font-semibold mb-4 border-gray-400 ">UNLV</h2>
-        <h2 className="text-xl font-semibold mb-4 border-gray-400 ">January 2023 - May 2023</h2>
         <h2 className="text-xl font-semibold mb-4 border-b-2 pb-2 border-gray-400 ">Teaching Assistant</h2>
         <p>
           In the 2023 spring semester at UNLV, I worked a teaching assistant for CS218 - Assembly Language (one of the more difficult classes in the cirriculum).
